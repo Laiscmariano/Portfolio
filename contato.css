@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdada; /* Fundo neutro claro */
+    color: #333; /* Texto escuro para contraste */
+}
+
+header {
+    background: linear-gradient(to bottom, #480a74, #3d0286);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: #3d0286;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #E6E6FA;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; /* Amarelo para destaque */
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to top, #3d0286, #480a74);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .project {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+    }
+}
