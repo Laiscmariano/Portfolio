@@ -158,6 +158,7 @@ nav a:hover {
 }
 
 .project iframe {
+    overflow: hidden;
     width: 100%; /* Faz o iframe ocupar 100% da largura do cartão */
     height: auto; /* Mantém a proporção */
     display: block; /* Remove espaçamento de elementos inline */
