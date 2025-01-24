@@ -74,6 +74,13 @@ nav a:hover {
     margin: 0 auto;
     color: #555;
 }
+.projetcs {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os projetos */
+}
 
 .about-me, .projects {
     background-color: white;
@@ -99,7 +106,7 @@ nav a:hover {
 
 .project {
     display: inline-block;
-    width: 30%;
+    width: calc(33.33% - 15px); /* Ajusta a largura para 3 colunas */
     margin: 15px;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
@@ -164,7 +171,7 @@ footer a:hover {
 /* Responsividade */
 @media (max-width: 768px) {
     .project {
-        width: 45%;
+        width: calc(45% - 15px); /* Ajusta para 2 colunas */
     }
 }
 
