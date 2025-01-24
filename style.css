@@ -144,7 +144,7 @@ nav a:hover {
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: 0.3s ease, transform 0.3s ease;
     align-self: center; /* Centraliza o botão horizontalmente */
     max-width: 100%; /* Impede que o botão ultrapasse a largura */
     text-align: center;
@@ -160,7 +160,7 @@ nav a:hover {
 }
 
 .project iframe {
-    width: 100%; /* Faz o iframe ocupar 100% da largura do cartão */
+    max-width: 100%; /* Faz o iframe ocupar 100% da largura do cartão */
     height: auto; /* Mantém a proporção */
     display: block; /* Remove espaçamento de elementos inline */
     border: none; /* Remove borda extra */
