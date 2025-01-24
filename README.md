@@ -17,8 +17,8 @@ O projeto possui três seções principais:
 1. **Sobre Mim**  
    Uma introdução breve sobre o desenvolvedor, incluindo foto e descrição.
 
-2. **Meus Projetos**  
-   Galeria com alguns projetos, incluindo imagens e descrições.
+2. **Trajetória**  
+   Galeria com alguns cursos, incluindo descrições.
 
 3. **Contato**  
    Formas de entrar em contato, como e-mail e links para redes sociais.
