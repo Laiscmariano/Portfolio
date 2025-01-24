@@ -74,13 +74,6 @@ nav a:hover {
     margin: 0 auto;
     color: #555;
 }
-.projetcs {
-    overflow-x: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px; /* Espaçamento entre os projetos */
-}
 
 .about-me, .projects {
     background-color: white;
@@ -102,6 +95,14 @@ nav a:hover {
     margin-bottom: 20px;
     border: 4px solid #3d0286;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projetcs {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os projetos */
 }
 
 .project {
@@ -143,11 +144,25 @@ nav a:hover {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     align-self: center; /* Centraliza o botão horizontalmente */
+    max-width: 100%; /* Impede que o botão ultrapasse a largura */
+    text-align: center;
+    box-sizing: border-box; /* Garante que margens e paddings sejam incluídos */
+    white-space: normal; /* Permite quebra de linha */
+    word-wrap: break-word; /* Garante que palavras grandes sejam quebradas */
 }
+
 
 .project a:hover {
     background-color: #7851A9; /* Roxo claro */
     transform: scale(1.05);
+}
+
+.project iframe {
+    width: 100%; /* Faz o iframe ocupar 100% da largura do cartão */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaçamento de elementos inline */
+    border: none; /* Remove borda extra */
+    box-sizing: border-box; /* Garante que padding e borda sejam contabilizados */
 }
 
 footer {
