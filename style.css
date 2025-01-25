@@ -160,6 +160,7 @@ nav a:hover {
 }
 
 .project iframe {
+    margin: auto;
     max-width: 100%; /* Faz o iframe ocupar 100% da largura do cartão */
     height: auto; /* Mantém a proporção */
     display: block; /* Remove espaçamento de elementos inline */
@@ -167,6 +168,10 @@ nav a:hover {
     box-sizing: border-box; /* Garante que padding e borda sejam contabilizados */
 }
 
+iframe.erro {
+    color: red;
+    font-weight: bolder;
+}
 footer {
     background: linear-gradient(to top, #3d0286, #480a74);
     color: white;
