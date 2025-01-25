@@ -122,7 +122,34 @@ nav a:hover {
     margin-right: 10px;
 }
 
-
+.btn-social.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #3d0286;
+    color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    justify-content: flex-start;
+  }
+  
+  .btn-social.linkedin:hover {
+    background-color: #480a74;
+    transform: translateY(-3px);
+  }
+  
+  .btn-social.linkedin i {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-right: 10px;
+  }
 
 
 footer {
